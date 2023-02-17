@@ -12,8 +12,8 @@ void PrintArray(string[] arr)
 
 string[] ModArray(string[] arr)
 {
-    int k = 0;
-    for (int i = 0; i < arr.Length; i++)
+    int k = 0;  
+    for (int i = 0; i < arr.Length; i++)    //определение длины нового массива
     {
         if (arr[i].Length <= 3)
         {
@@ -23,7 +23,7 @@ string[] ModArray(string[] arr)
 
     string[] new_arr = new string[k];
     k = 0;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < arr.Length; i++)  // заполнение нового массива
     {
         if (arr[i].Length <= 3)
         {
